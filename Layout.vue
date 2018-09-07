@@ -9,15 +9,11 @@
 </template>
 
 <script>
-import nprogressMixin from '@theme/mixins/nprogress'
 import TheHeader from '@theme/components/TheHeader'
 import TheMain from '@theme/components/TheMain'
 import TheFooter from '@theme/components/TheFooter'
 export default {
   name: 'Layout',
-  mixins: [
-    nprogressMixin
-  ],
   components: {
     TheHeader,
     TheMain,
