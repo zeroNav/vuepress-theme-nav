@@ -1,8 +1,8 @@
-# Vuepress Theme - Meteorlxy
+# Vuepress Theme - Nav (Build from meteorlxy)
 
-Meteorlxy theme for [Vuepress](https://vuepress.vuejs.org)
+Nav theme for [Vuepress](https://vuepress.vuejs.org)
 
-See demo on [my homepage](https://www.meteorlxy.cn)
+See demo on [my homepage](https://zeronav.github.io)
 
 ## Extra Config
 
@@ -12,8 +12,8 @@ Here's the sample config of my own homepage:
 
 ```js
 module.exports = {
-  title: 'Meteorlxy',
-  description: 'meteorlxy\'s homepage',
+  title: 'ZERO',
+  description: 'ZERO\'s homepage',
   head: [
     ['link', { rel: 'icon', href: '/assets/img/avator.jpg' }],
   ],
@@ -22,10 +22,10 @@ module.exports = {
       lang: 'zh-CN',
     },
   },
-  theme: 'meteorlxy',
+  theme: 'ZERO',
   themeConfig: {
     personalInfo: {
-      nickname: 'meteorlxy',
+      nickname: 'ZERO',
       description: 'Happy Coding<br/>Happy Life',
       email: 'meteor.lxy@foxmail.com',
       location: 'Xi\'an City, China',
@@ -33,24 +33,24 @@ module.exports = {
       avator: '/assets/img/avator.jpg',
       sns: {
         facebook: {
-          account: 'meteorlxy.cn',
-          link: 'https://www.facebook.com/meteorlxy.cn'
+          account: 'xx',
+          link: 'https://www.facebook.com/xx'
         },
         github: {
-          account: 'meteorlxy',
-          link: 'https://github.com/meteorlxy'
+          account: 'xx',
+          link: 'https://github.com/xx'
         },
         linkedin: {
-          account: 'meteorlxy',
-          link: 'http://www.linkedin.com/in/meteorlxy'
+          account: 'xx',
+          link: 'http://www.linkedin.com/in/xx'
         },
         twitter: {
-          account: 'meteorlxy_cn',
-          link: 'https://twitter.com/meteorlxy_cn'
+          account: 'xx',
+          link: 'https://twitter.com/xx'
         },
         weibo: {
-          account: '@焦炭君_Meteor',
-          link: 'https://weibo.com/u/2039655434'
+          account: '@xx',
+          link: 'https://weibo.com/u/xxxxxx'
         }
       }
     },

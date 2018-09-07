@@ -25,7 +25,7 @@ export default {
   },
   computed: {
     $layout () {
-      const defaultLayout = 'post'
+      const defaultLayout = 'page'
       const layout = this.$page.frontmatter.layout || defaultLayout
       return layout.toLowerCase()
     },

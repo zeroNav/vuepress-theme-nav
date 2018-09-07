@@ -1,7 +1,5 @@
 <template>
   <article class="post">
-    <PostMeta/>
-    
     <Content
       :key="$page.path"
       class="post-content markdown-body"/>
