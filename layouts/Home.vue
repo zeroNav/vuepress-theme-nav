@@ -1,5 +1,8 @@
 <template>
   <div class="home">
+    <Content
+      :key="$page.path"
+      class="post-content markdown-body"/>
     <PostsList class="main-div"/>
   </div>
 </template>
